@@ -1,4 +1,3 @@
-import list
 psifoi = []
 onomata = ["xristina" ,"dionisis"  "kevin", "aourel", "giorgos"]
 print "ta onomata ton ipopsifion einai:", onomata
