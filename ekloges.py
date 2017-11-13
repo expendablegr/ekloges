@@ -16,7 +16,7 @@ if ar_on == "xristina" or "dionisis" or "kevin" or "aourel" or "giorgos": #edo m
     elif ar_on=="giorgos":
       psifoi.insert(4,"giorgos")
     ar_on=raw_input("dose onoma: ")
-    while ar_on != "xristina" and "dionisis" and "kevin" and "aourel" and "giorgos":
+    while not (ar_on != "xristina" and "dionisis" and "kevin" and "aourel" and "giorgos"):
       ar_on=raw_input("dose onoma to proigoumeno itan lahos: ")
 print "h psifoi ths xristinas einai: ",psifoi.count("xristina")
 print "h psifoi toy dionisi einai: ",psifoi.count("dionisis")
