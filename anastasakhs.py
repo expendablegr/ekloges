@@ -1,2 +1,2 @@
-def banner:
-	print "Επαλ Μοιρων
+def banner():
+	print "Επαλ Μοιρων"
